@@ -1,0 +1,112 @@
+.home .navss {
+  background-color: #0f0714;
+}
+.home .home-nav {
+  display: flex;
+  line-height: 46px;
+}
+.home .t1 {
+  font-weight: bold;
+  color: #8f8e97;
+}
+.home .t2 {
+  color: #d9baba;
+  font-weight: bold;
+  margin-left: 10px;
+}
+.home /deep/ .home-search {
+  color: #8f8e97;
+}
+.home /deep/ .home-search .van-icon {
+  color: #d9baba;
+}
+.home .home-content {
+  padding: 10px 10px 0 10px;
+}
+.home .banner-box {
+  background-color: #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.home .index-box {
+  position: absolute;
+  right: 8px;
+  bottom: 10px;
+  display: flex;
+}
+.home .index-box > div {
+  width: 12px;
+  height: 2px;
+  background-color: #fff;
+  margin-right: 5px;
+  border-radius: 1px;
+}
+.home .index-box > div.active {
+  background-color: #d9baba;
+}
+.home .product-box {
+  margin-top: 10px;
+}
+.home .pro-title-box {
+  padding: 10px 0;
+}
+.home .pro-title {
+  float: left;
+  padding: 0 15px;
+  height: 32px;
+  background-color: #d9baba;
+  color: #fff;
+  line-height: 32px;
+  font-size: 14px;
+  border-top-right-radius: 16px;
+}
+.home .products {
+  margin-top: 10px;
+}
+.home .pro-item {
+  width: calc(50% - 25px);
+  margin-right: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  overflow: hidden;
+  float: left;
+}
+.home .pro-item:nth-child(2n) {
+  margin-right: 0;
+}
+.home .img-box {
+  border-radius: 8px;
+  overflow: hidden;
+  position: relative;
+}
+.home .img-box .hot {
+  position: absolute;
+  left: 8px;
+  top: 0;
+  width: 24px;
+  text-align: center;
+  line-height: 24px;
+  height: 24px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  background-color: #d9baba;
+  color: #fff;
+  font-size: 12px;
+}
+.home .pro-info {
+  margin-top: 10px;
+}
+.home .pro-name {
+  margin-bottom: 5px;
+}
+.home .pro-price {
+  color: #d9baba;
+  font-weight: bold;
+  font-size: 16px;
+}
+.home .pro-enname {
+  color: #999;
+  font-size: 12px;
+  margin-bottom: 10px;
+}

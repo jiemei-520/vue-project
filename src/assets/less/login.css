@@ -1,0 +1,67 @@
+.login .van-nav-bar {
+  background-color: #1e1e1e;
+}
+.login .nav-left {
+  display: flex;
+}
+.login .logo {
+  width: 40px;
+  height: 40px;
+  border-radius: 50% ;
+  margin-top: 6px;
+}
+.login .logo img {
+  display: block;
+  width: 100%;
+  height: auto;
+  background-color: #ccc;
+}
+.login .logo-text {
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 10px;
+  line-height: 46px;
+  color: slateblue;
+}
+.login /deep/ .van-nav-bar__text {
+  color: blueviolet;
+  font-weight: bold;
+}
+.login .user-box {
+  margin-top: 50px;
+  padding: 0 15px;
+}
+.login .welcome {
+  margin: 0 auto;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  background-image: url(../images/timg\ \(1\).jpg);
+  background-size: 100%;
+}
+.login .van-form {
+  margin-top: 30px;
+}
+.login .sub-title {
+  margin-top: 30px;
+  color: darkslateblue;
+  font-size: 16px;
+}
+.login .sign {
+  margin-top: 80px;
+}
+.login .commit-btn {
+  margin-top: 20px;
+}
+.login .register-box {
+  padding: 15px 0;
+}
+.login .register-btn {
+  padding: 0 15px;
+}
+.login .register-title {
+  font-size: 24px;
+  font-weight: bold;
+  padding: 0 15px;
+  margin-bottom: 50px;
+}
